@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<VBE_InsertSakeMushDesc>Mush to Insert</VBE_InsertSakeMushDesc>
+	<VBE_StartInsertionSakeMush>Bring Mush</VBE_StartInsertionSakeMush>
+	<VBE_StartInsertionSakeMushDesc>Bring sake mush to the sake still to start fermentation process</VBE_StartInsertionSakeMushDesc>
+	<VBE_CancelBringingSakeMush>Cancel Bringing sake mush</VBE_CancelBringingSakeMush>
+	<VBE_CancelBringingSakeMushDesc>Cancel bringing sake mush to the sake still.</VBE_CancelBringingSakeMushDesc>
+
+
+</LanguageData>

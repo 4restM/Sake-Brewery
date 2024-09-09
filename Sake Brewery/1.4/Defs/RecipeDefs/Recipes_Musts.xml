@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<RecipeDef>
+		<defName>VBE_MakeSakeMush</defName>
+		<label>make sake mush</label>
+		<description>Make a cloudy, milky mush of starches, ready for fermentation into sake.</description>
+		<jobString>Making sake mush.</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<workSkill>Cooking</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<workAmount>1000</workAmount>
+		<soundWorking>Recipe_Brewing</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<recipeUsers>
+			<li>Brewery</li>	
+			<li>VBE_Bar</li>			
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawRice</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			
+		</ingredients>
+		<fixedIngredientFilter>			
+			<thingDefs>
+				<li>RawRice</li>
+				
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>			
+			<thingDefs>
+				<li>RawRice</li>
+				
+			</thingDefs>
+		</defaultIngredientFilter>
+		<products>
+			<VBE_SakeMush>5</VBE_SakeMush>
+		</products>
+		
+		<researchPrerequisite>VBE_LiquorBrewing</researchPrerequisite>
+	</RecipeDef>
+	
+	
+
+</Defs>
