@@ -1,6 +1,11 @@
-## Sake Brewery
+![image](https://github.com/user-attachments/assets/7e756705-f174-45c8-9216-4ef0bf727978)
 
+## Sake Brewery
 This is an open source mod for the game RimWorld. Allows you to brew Sake! Requires Vanilla Brewing Expanded. This is compatible with versions 1.3 - 1.5
+
+
+![image](https://github.com/user-attachments/assets/422c5858-0eb7-4867-a088-865ee0d3aed7)
+
 
 ## Installation
 
