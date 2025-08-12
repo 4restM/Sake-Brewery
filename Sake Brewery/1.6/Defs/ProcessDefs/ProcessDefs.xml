@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Defs>
+
+	<PipeSystem.ProcessDef>
+		<defName>VBE_SakeMushToSake</defName>
+		<label>Turn sake mush into sake</label>
+		<description>Turn 25 sake mush into 25 sake.</description>
+		<!-- <building>VBE_SakeStill</building> -->
+		<autoExtract>false</autoExtract>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<ingredients>
+			<li>
+				<thing>VBE_SakeMush</thing>
+				<countNeeded>25</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>600000</ticks> <!-- 600.000 = 10 days -->
+		<results>
+			<li>
+				<thing>VBE_Sake</thing>
+				<count>25</count>
+			</li>
+		</results>
+		<temperatureRuinable>true</temperatureRuinable>
+		<minSafeTemperature>5</minSafeTemperature>
+		<maxSafeTemperature>15</maxSafeTemperature>
+		<rareTicksToDestroy>10</rareTicksToDestroy>
+		<destroyIngredientsOnStart>true</destroyIngredientsOnStart>
+	</PipeSystem.ProcessDef>
+
+</Defs>
